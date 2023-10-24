@@ -1,25 +1,49 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
- <div class="container mx-auto flex-col">
-  <nav>
-   <div class="nav-bar pt-9 flex flex-row justify-around">
-    <div class="nav-logo">
-     <h1 class="text-3xl ">FOOD TRAVELS</h1>
+  <body class="bg-slate-800">
+    <div class="container mx-auto flex-col">
+      <nav>
+        <div
+          class="nav-bar text-white pt-9 gap-16 flex flex-row justify-around items-center"
+        >
+          <div class="nav-logo">
+            <h1 class="text-3xl font-bold">FOODIE TRAVELS</h1>
+          </div>
+          <div class="nav-links flex gap-10 pt-2">
+            <a href="#">LINK 1</a>
+            <a href="#">LINK 2</a>
+          </div>
+        </div>
+      </nav>
+      <main class="pt-5">
+        <div class="main-page flex flex-row">
+          <div class="food-pics">
+            <div class="main-content">
+              <ul class="slideshow">
+                <li>
+                  <span class="img-bg-slide">Image 01</span>
+                </li>
+                <li>
+                  <span class="img-bg-slide">Image 02</span>
+                </li>
+                <li>
+                  <span class="img-bg-slide">Image 03</span>
+                </li>
+                <li>
+                  <span class="img-bg-slide">Image 04</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    <div class="nav-links pt-2">
-     <a href="">LINK 1</a>
-     <a href="">LINK 2</a>
-    </div>
-   </div>
-  </nav>
- </div>
-</body>
+  </body>
 </html>
