@@ -4,42 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="slider.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-sky-200">
-    <div class="container mx-auto h-screen flex-col">
+  <body>
+    <div class="container">
       <!-- Start NAV -->
       <nav>
-        <div
-          class="nav-bar text-indigo-500 pt-6 gap-16 flex flex-row justify-around items-center"
-        >
+        <div class="nav-bar">
           <div class="nav-logo">
-            <a
-              href="index.html"
-              class="text-3xl font-bold hover: cursor-pointer"
-              >FOODIE ON THE ROAD</a
-            >
+            <a href="index.html">FOODIE ON THE ROAD</a>
           </div>
-          <div class="nav-links flex gap-12 pt-2">
-            <a
-              class="font-bold w-32 pl-6 align-middle hover:w-32 hover:pl-6 hover:align-middle hover:border-2 hover:border-indigo-600 hover:rounded-full white"
-              href="travel.html"
-              >TRAVELS</a
-            >
-            <a
-              class="font-bold w-32 pl-8 align-middle hover:w-32 hover:pl-8 hover:align-middle hover:border-2 hover:border-indigo-600 hover:rounded-full white"
-              href="foods.html"
-              >FOODS</a
-            >
+          <div class="nav-links">
+            <a href="travel.html">TRAVELS</a>
+            <a href="foods.html">FOODS</a>
           </div>
         </div>
         <!-- end NAV -->
       </nav>
-      <main class="h-full pt-44 flex-row justify-end">
-        <!-- Slider starts here -->
-        <div class="food-slider max-w-screen-md">
-          <ul class="slideshow flex gap-10">
+      <main>
+        <div class="food-slider">
+          <ul class="slideshow">
             <li>
               <span
                 class="img-bg-slide"
@@ -66,7 +52,7 @@
             </li>
           </ul>
         </div>
-        <!-- Slider ends here -->
+
         <article class="pt-96 flex-row flex justify-end">
           <p>
             About Me Hey there! I'm [Your Name], the face behind [Your Travel
