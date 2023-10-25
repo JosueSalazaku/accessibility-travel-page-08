@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="travel.css" />
+    <link rel="stylesheet" href="nav.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TRAVELS PAGE</title>
   </head>
@@ -24,12 +25,46 @@
         <!-- end NAV -->
       </nav>
       <main>
-        <img
-          src="continents/africa.svg"
-          style="height: 30%; width: 25%"
-          alt="continent of Africa"
-        />
+        <article>
+          <h1 style="font-size: larger">PLACES WE'VE TRAVELED SO FAR</h1>
+          <div class="cards">
+            <div class="card" onclick="openLightbox(this)">
+              <img
+                src="travel pictures/Ayutthaya.jpg"
+                alt="Ayutthaya, Thailand"
+              />
+              <div class="overlay">
+                <h2>Ayutthaya, Thailand</h2>
+                <p>Additional text goes here.</p>
+              </div>
+            </div>
+            <div class="card" onclick="openLightbox(this)">
+              <img
+                src="travel pictures/Kalandula-Falls.jpg"
+                alt="Kalandula Falls"
+              />
+              <div class="overlay">
+                <h2>Kalandula Falls</h2>
+                <p>Additional text goes here.</p>
+              </div>
+            </div>
+            <div class="card" onclick="openLightbox(this)">
+              <img src="travel pictures/boston.jpg" alt="Boston, USA" />
+              <div class="overlay">
+                <h2>Boston, USA</h2>
+                <p>Additional text goes here.</p>
+              </div>
+            </div>
+          </div>
+          <div class="highlights"><h1>DESTINATION HIGHLIGHTS</h1></div>
+          <div class="tips"><h1>TRAVEL TIPS</h1></div>
+        </article>
       </main>
+
+      <div class="lightbox" onclick="closeLightbox()">
+        <img src="" alt="Lightbox Image" id="lightboxImage" />
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
