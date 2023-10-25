@@ -99,9 +99,11 @@ article {
 .highlights {
   display: flex;
   font-size: 15px;
+  flex-direction: column;
 }
 
 section {
   display: flex;
-  width: auto;
+  width: 100%;
+  gap: 20px;
 }
