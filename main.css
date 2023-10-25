@@ -5,7 +5,7 @@
 
 body {
   display: flex;
-  background: rgb(175, 228, 249);
+  background: #4353ff;
 }
 
 .container {
@@ -29,4 +29,4 @@ article {
   color: rgb(93, 57, 249);
   font-size: medium;
   font-weight: 700;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
