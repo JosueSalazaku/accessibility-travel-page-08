@@ -68,11 +68,14 @@ article {
   align-items: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.1s;
 }
 
 .card:hover .overlay {
-  opacity: 1;
+  background: rgb(0, 3, 54);
+  opacity: 90%;
+  font-weight: 900;
+  font-size: x-large;
 }
 
 .lightbox {
