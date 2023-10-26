@@ -16,18 +16,39 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: 500;
+  padding-top: 35px;
+}
+
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding-bottom: 15px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
 }
 
 .card {
   display: flex;
   position: relative;
   background: #fff;
-  width: 600px;
+  width: 700px;
   height: 300px;
   margin: 20px;
   border-radius: 8px;
@@ -45,7 +66,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 43%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -88,4 +109,8 @@ body {
   font-size: 15px;
   flex-direction: column;
   gap: 20px;
+}
+
+footer {
+  padding-top: 25px;
 }
