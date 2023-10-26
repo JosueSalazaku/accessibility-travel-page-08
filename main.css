@@ -26,7 +26,7 @@ main {
 article {
   display: flex;
   flex-direction: column;
-  color: rgb(93, 57, 249);
+  color: rgb(255, 255, 255);
   font-size: medium;
   font-weight: 700;
 } /*# sourceMappingURL=main.css.map */
