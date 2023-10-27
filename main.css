@@ -20,7 +20,7 @@ main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 article {
@@ -29,4 +29,5 @@ article {
   color: rgb(255, 255, 255);
   font-size: medium;
   font-weight: 700;
+  padding-top: 150px;
 } /*# sourceMappingURL=main.css.map */

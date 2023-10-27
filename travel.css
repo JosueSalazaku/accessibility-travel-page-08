@@ -27,7 +27,7 @@ main {
   flex-direction: column;
   gap: 25px;
   color: white;
-  font-size: medium;
+  font-size: 15px;
   font-weight: 700;
   padding-top: 35px;
 }

@@ -81,13 +81,14 @@ section {
 
 .card p {
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .card:hover .overlay {
   background: rgb(7, 16, 185);
   opacity: 90%;
   font-weight: 900;
   font-size: x-large;
+  cursor: auto;
 }
 
 .lightbox {
