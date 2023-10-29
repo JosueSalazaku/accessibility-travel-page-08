@@ -51,7 +51,7 @@ section {
   width: 800px;
   height: 300px;
   margin: 20px;
-  /* border-radius: 8px; */
+  border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -80,7 +80,7 @@ section {
 }
 
 .card p {
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
 }
 .card:hover .overlay {
